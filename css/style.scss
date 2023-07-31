@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px;
+        color: rgba(196, 195, 195, 0.788);
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Tektur', cursive;   
+        .menu:hover{
+        color: white;
+        text-decoration: none;
+    }
+        .logo{
+            position: relative;
+            width: 30px;
+            height: 30px;
+            left: 100;
+            cursor: pointer;
+        }
+        
+        .contenedor-iconos{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            right: -40px;
+            font-size: 22px;
+            width: 120px;
+        }
+        .contenedor-iconos:hover{
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .video{
+            width: 1349px;
+            height: 492px;
+
+        }
+    }
+    .donde-comprar{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-color: rgb(14, 13, 13);
+        color: #fff;
+        gap: 20px;
+
+        .nombre-producto{
+            display: flex;
+            align-items: center;
+            position: relative;
+            color: #fff;
+            font-size: 14px;
+            height: 55px;
+            background-color: rgb(14, 13, 13);
+            font-family: 'Chillax', sans-serif;
+            padding-left: 110px;
+    
+        }
+        .variantes{
+            display: flex;
+            align-items: center;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #837a7a;
+            font-size: 14px;
+            right: -280px;
+            cursor: pointer;
+
+        }
+        .variantes:hover{
+            color: rgb(22, 201, 22);
+            text-decoration: none;
+            
+        }
+        
+        .comprar {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Centrar horizontalmente */
+            position: relative;
+            left: -80px;
+            width: 130px; /* Ancho del rectángulo */
+            height: 30px; /* Altura del rectángulo */
+            background-color: #0f0;
+            font-weight: 1000;
+            border-radius: 2px;
+            color: black;
+            font-size: 14px;
+            font-family: 'Author', sans-serif;
+            cursor: pointer;
+        }
+        
+        .comprar:hover{
+
+            background-color: rgba(255, 255, 255, 0.712); // En este caso sería color de fondo blanco con 50% de transparencia.
+            text-decoration: none;
+        }
+
+    }
+    
+    
+    
+    main{
+        .teclado{
+            width: 1349px;
+            height: 492px;
+        }
+        .descripcion{
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            color: #fff;
+            font-family: 'Chillax', sans-serif;
+
+           
+            .subtitulo{
+                
+                font-size: 62px;
+                background-image: linear-gradient(45deg, #FFC700, #FF7F00, #FF0000, #FF007F, #FF00FF, #7F00FF, #0000FF, #00FFFF, #00FF7F, #00FF00, #7FFF00, #FFFF00);
+                background-size: 200% 200%;
+                animation: arcoiris 5s linear infinite;
+                -webkit-animation: arcoiris 5s linear infinite;
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent; /* Hacemos el texto transparente */
+                font-family:Arial, Helvetica, sans-serif
+            }
+        }
+        video{
+            width: 100%;
+            height: 100%;
+
+        }
+        .informacion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 17px;
+            color: #837a7a;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .subtitulo2{
+                
+            font-size: 35px;
+            background-image: linear-gradient(45deg, #FFC700, #FF7F00, #FF0000, #FF007F, #FF00FF, #7F00FF, #0000FF, #00FFFF, #00FF7F, #00FF00, #7FFF00, #FFFF00);
+            background-size: 200% 200%;
+            animation: arcoiris 5s linear infinite;
+            -webkit-animation: arcoiris 5s linear infinite;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent; 
+            font-family:Arial, Helvetica, sans-serif
+        }
+        .tec{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #fff;
+        }
+        .logo-chroma{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .selecion{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #44d62c;
+            font-size: 36px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }   
+
+}
+
+

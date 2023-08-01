@@ -59,7 +59,21 @@ body{
         background-color: rgb(14, 13, 13);
         color: #fff;
         gap: 20px;
-
+    
+        .inicio{
+            display: flex;
+            align-items: center;
+            position: relative;
+            font-family: 'Tektur', cursive;
+            color: #fff;
+            font-size: 15px;
+            right: -280px;
+            cursor: pointer;
+        }
+        .inicio:hover{
+            text-decoration: none;
+            color: #44d62c;
+        }
         .nombre-producto{
             display: flex;
             align-items: center;
@@ -102,7 +116,7 @@ body{
             border-radius: 2px;
             color: black;
             font-size: 14px;
-            font-family: 'Author', sans-serif;
+            font-family: 'Tektur', cursive;
             cursor: pointer;
         }
         

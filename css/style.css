@@ -57,6 +57,20 @@ body .donde-comprar {
   color: #fff;
   gap: 20px;
 }
+body .donde-comprar .inicio {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-family: "Tektur", cursive;
+  color: #fff;
+  font-size: 15px;
+  right: -280px;
+  cursor: pointer;
+}
+body .donde-comprar .inicio:hover {
+  text-decoration: none;
+  color: #44d62c;
+}
 body .donde-comprar .nombre-producto {
   display: flex;
   align-items: center;
@@ -95,7 +109,7 @@ body .donde-comprar .comprar {
   border-radius: 2px;
   color: black;
   font-size: 14px;
-  font-family: "Author", sans-serif;
+  font-family: "Tektur", cursive;
   cursor: pointer;
 }
 body .donde-comprar .comprar:hover {
